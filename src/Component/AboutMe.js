@@ -39,17 +39,17 @@ I take pride in adhering to the highest standards for web development, user expe
                     <div className="column mb-3">
                         <h5 className=" text-uppercase text-primary">Skills</h5>
                         <div >
-                        <img src={reactIcon} className="custom-img-width mr-3" />
-                        <img src={typescriptIcon} className="custom-img-width mr-3"  />
-                        <img src={jsIcon} className="custom-img-width mr-3"  />
-                        <img src={nestJs} className="custom-img-width mr-3"  />
-                        <img src={mui} className="custom-img-width mr-3"  />
-                        <img src={mongodb} className="custom-img-width mr-3"  />
-                        <img src={sassIcon} className="custom-img-width mr-3"  />
-                        <img src={htmlIcon} className="custom-img-width mr-3"  />
-                        <img src={cssIcon} className="custom-img-width mr-3"  />
+                        <img src={reactIcon} className="custom-img-width mr-3 mb-3" />
+                        <img src={typescriptIcon} className="custom-img-width mr-3 mb-3"  />
+                        <img src={jsIcon} className="custom-img-width mr-3 mb-3"  />
+                        <img src={nestJs} className="custom-img-width mr-3 mb-3"  />
+                        <img src={mui} className="custom-img-width mr-3 mb-3"  />
+                        <img src={mongodb} className="custom-img-width mr-3 mb-3"  />
+                        <img src={sassIcon} className="custom-img-width mr-3 mb-3"  />
+                        <img src={htmlIcon} className="custom-img-width mr-3 mb-3"  />
+                        <img src={cssIcon} className="custom-img-width mr-3 mb-3"  />
                         
-                        <img src={boostrapIcon} className="custom-img-width" />
+                        <img src={boostrapIcon} className="custom-img-width mb-3" />
                         
                        
                        

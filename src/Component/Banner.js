@@ -83,7 +83,7 @@ const Banner = () =>{
                     </a>
                    </div>
                     <div className="d-flex align-items-center justify-content-center justify-content-lg-start pt-5">
-                    <a href="#contact"  className="btn btn-light mr-5 pl-5 pr-5" >Contact Me</a>
+                    <a href="#contact"  className="btn btn-light  pl-5 pr-5" >Contact Me</a>
 
                         {/* <a href={Resume}  target='_blank'  className="btn btn-outline-light mr-5" onClick={()=> handleDownloadCV()}>Download CV</a> */}
                         
