@@ -62,15 +62,11 @@ const Contact = () => {
             <h5 className="  text-primary mb-3" style={{textAlign:"center"}}>I’m excited to learn about your project.<br /> Ready to get started?</h5>
             <div className="row mb-5" style={{justifyContent: "center",columnGap:"30px"}}>
                 <button  className="contact-container" onClick={() => window.location = 'mailto:yourmail@domain.com'}>
-                <img src={Email}  className="contact-image"/>
+                <img src={Email}  className="contact-image" alt="email"/>
                     <span className="text-white">navyagunda.71@gmail.com</span>
                 </button>
-                {/* <div className="contact-container">
-                    <img src={Email}  className="contact-image"/>
-                    <span className="text-white">navyagunda.71@gmail.com</span>
-                </div> */}
                 <div className="contact-container">
-                    <img src={phone}  className="contact-image"/>
+                    <img src={phone}  className="contact-image" alt="phone"/>
                     <span className="text-white">+971 50 540 1750</span>
                 </div>
             </div>

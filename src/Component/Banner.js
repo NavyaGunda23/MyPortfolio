@@ -8,14 +8,12 @@ import boostrapIcon  from "../assest/bootstrap-icon.svg"
 import cssIcon from "../assest/css-icon.svg"
 import htmlIcon from "../assest/html-icon.svg"
 import jsIcon from "../assest/js-icon.svg"
-// import nodeIcon from "../assest/node-icon.svg"
 import nestIcon from "../assest/nest-js.png"
 import reactIcon from "../assest/react-icon.svg"
 import sassIcon from "../assest/sass-icon.svg"
 import typescriptIcon from "../assest/ts-icon.svg"
 import moongodb from "../assest/mongodb.svg"
 import muicon from "../assest/mui.png"
-import Resume from "../assest/resume/NavyaGunda_Resume.pdf"
 import linkedin from "../assest/linkedin.svg"
 import github from "../assest/github.svg"
 import whatsapp from "../assest/whatsapp.svg"
@@ -72,14 +70,14 @@ const Banner = () =>{
     />
                    <div className="row-cols-3 mt-5">
                     <a href="https://www.linkedin.com/in/navya-gunda-318b5112b/" target="_blank">
-                      <img src={linkedin} className="custom-img-width mr-3" />
+                      <img src={linkedin} className="custom-img-width mr-3" alt="linkedin"/>
                     </a>
                     <a href="//api.whatsapp.com/send?phone=971505401750&text=Hi" target="_blank">
                    
-                      <img src={whatsapp } className="custom-img-width  mr-3"  />
+                      <img src={whatsapp } className="custom-img-width  mr-3" alt="whatsapp"  />
                     </a>
                     <a href="https://github.com/NavyaGunda23" target="_blank">
-                      <img src={github} className="custom-img-width  mr-3"  />
+                      <img src={github} className="custom-img-width  mr-3" alt="github" />
                     </a>
                    </div>
                     <div className="d-flex align-items-center justify-content-center justify-content-lg-start pt-5">
@@ -232,16 +230,6 @@ const Banner = () =>{
                   width: 20,
                   height: 20
                 },
-                // {
-                //   "src": wordpress,
-                //   "width": 20,
-                //   "height": 20
-                // },
-                // {
-                //   "src": shopify,
-                //   "width": 20,
-                //   "height": 20
-                // },
                 {
                   src: htmlIcon,
                   width: 20,

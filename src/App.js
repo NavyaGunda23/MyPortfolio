@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+
 import React, { useCallback, useEffect, useRef, useState } from "react";
 import "./App.css";
 import Header from "./Component/Header";
@@ -19,8 +19,6 @@ import jsIcon from "./assest/js-icon.svg"
 import reactIcon from "./assest/react-icon.svg"
 import sassIcon from "./assest/sass-icon.svg"
 import typescriptIcon from "./assest/ts-icon.svg"
-import vueIcon from "./assest/shopify.svg"
-import nodeIcon from "./assest/node-icon.svg"
 import nestjs from "./assest/nest-js.png"
 import moongodb from "./assest/mongodb.svg"
 import muicon from "./assest/mui.png"
@@ -77,7 +75,6 @@ function App() {
   const [headerPosition, setHeaderPosition] = useState(false);
   const handleScroll = () => {
     let currentScrollPos = window.pageYOffset;
-    let maxScroll = document.body.scrollHeight - window.innerHeight;
     if (currentScrollPos > 90 ) {
       setHeaderPosition(true);
     } else {
